@@ -1,3 +1,6 @@
+" Snippets.
+UltiSnipsAddFiletypes haskell
+
 " Language pragmas.
 let s:ghc_cached_language_pragmas
   \= sort(split(system('ghc --supported-languages'), '\n'))
