@@ -19,8 +19,8 @@ nnoremap <LocalLeader>we :Tabularize/=<CR>
 " Types
 " =====
 
-nnoremap <LocalLeader>wt V!~/bin/wrat<CR>
-vnoremap <LocalLeader>wt !~/bin/wrat<CR>
+nnoremap <LocalLeader>wt V!wrat<CR>
+vnoremap <LocalLeader>wt !wrat<CR>
 
 " Hdevtools
 " =========
