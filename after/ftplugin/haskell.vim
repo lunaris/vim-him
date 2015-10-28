@@ -9,7 +9,7 @@ for lp in s:ghc_cached_language_pragmas
 endfor
 
 noremap <LocalLeader>la :emenu GHC_LANGUAGES.
-noremap <LocalLeader>sl mzggvip:sort<CR>`z
+noremap <LocalLeader>sl mzgg:Tabularize/#-}<CR>vip:sort<CR>`z
 
 " Expressions
 " ===========
